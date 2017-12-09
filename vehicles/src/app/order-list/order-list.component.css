@@ -1,0 +1,310 @@
+.grayback{
+	background: #9494b8;
+	border-style: solid;
+    border-width: 2px;
+}
+.border{
+	border-style: solid;
+    border-width: 2px;
+}
+.glass{
+	/* background styles */
+	position: relative;
+	display: inline-block;
+	padding: 10% 10% 10% 10%;
+	width: 60%;
+	height: 100%;
+	left: 10%;
+	text-align: center;
+	vertical-align: text-bottom;
+	background-color: green; /*for compatibility with older browsers*/
+	background-image: linear-gradient(green,lightgreen);
+
+	/* text styles */
+	text-decoration: none;
+	/*color: #fff;*/
+	color: #000;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 100;
+	
+	/* Other Styles */
+	/*ellipse : border-radius: 100px/40px;*/
+	/*border-radius: 40px;*/
+	border-radius: 100%;
+	box-shadow: 0px 1px 4px -2px #333;
+	text-shadow: 0px -1px #333;
+}
+.glass:after{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+.glass:hover{
+	background: linear-gradient(#073,#0fa);
+}
+
+.tandoori{
+	background: #ff6347;
+	}
+.tandoori:hover{
+	background: #ff5337;
+}
+.chicken{
+	background: #3366ff;
+}
+.chicken:hover{
+	background: #2356ff;
+}
+.lamb{
+	background:  #666699;
+}
+.lamb:hover{
+	background: #565699;
+}
+.beef{
+	background:  #ff6633;}
+.beef:hover{
+	background: #ff5623;
+}
+.veg{
+	background:  #99ccff;
+}
+.veg:hover{
+	background: #89bcff;
+}
+.rice{
+	background: #ff9999;
+}
+.rice:hover{
+	background: #ff8989;
+}
+.special{
+	background: #3366ff;
+}
+.special:hover{
+	background: #3355ee;
+}
+.naan{
+	background: #bf4080;
+}
+.naan:hover{
+	background: #bf3070;
+}
+.drink{
+	background: #999966;
+}
+.drink:hover{
+	background: #8888ff;
+}
+.salad{
+	background: #66ccff;
+}
+.salad:hover{
+	background: #56bcff;
+}
+.gravy{
+	background: #9933ff;
+}
+.gravy:hover{
+	background: #8923ff;
+}
+.desert{
+	background: #666699;
+}
+.desert:hover{
+	background: #565699;
+}
+.roll{
+	background: #1010ff;
+}
+.roll:hover{
+	background: #0000ff;
+}
+.pageBtn1{
+	background: #3399ff;
+	border-radius: 15%;
+	padding: 25% 10% 25% 10%;
+}
+.pageBtn1:hover{
+	background: #2389ff;
+}
+.pageBtn2{
+	background: #0099ff;
+	border-radius: 15%;
+	padding: 25% 10% 25% 10%;
+}
+.pageBtn2:hover{
+	background: #0089ff;
+}
+.openitem{
+	background: #cc00cc;
+	border-radius: 15%;
+	width: 50%;
+}
+.openitem:hover{
+	background: #bc00cc;
+}
+.remove{
+	background: #3399ff;
+	border-radius: 15%;
+	padding: 15% 15% 15% 1%;
+}
+.remove:hover{
+	background: #2389ff;
+}
+.split{
+	background: #66ccff;
+	border-radius: 15%;
+}
+.split:hover{
+	background: #56bcff;
+}
+.qty{
+	background: #99ff66;
+	border-radius: 15%;
+	padding: 25% 10% 25% 10%;
+}
+.qty:hover{
+	background: #89ef66;
+}
+.add{
+	background: #ffb3b3;
+	border-radius: 15%;
+}
+.add:hover{
+	background: #efa3b3;
+}
+.open{
+	background: #3399ff;
+	border-radius: 15%;
+}
+.open:hover{
+	background: #2389ff;
+}
+.showticket{
+	background: #3333ff;
+	border-radius: 15%;
+	font-size: 22px;
+	padding: 15% 10% 15% 10%;
+	display: inline;
+}
+.showticket:hover{
+	background: #2323ff;
+}
+.togo{
+	background: #ffcccc;
+	border-radius: 15%;
+	padding: 15% 20% 15% 20%;
+	display: inline;
+}
+.togo:hover{
+	background: #efbccc;
+}
+.printtab{
+	background: #ffcc99;
+	border-radius: 10%;
+	padding: 15% 10% 15% 10%;
+	display: inline;
+}
+.printtab:hover{
+	background: #efbc99;
+}
+.send{
+	background: #ff8080;
+	border-radius: 15%;
+	padding: 22% 10% 25% 10%;
+}
+.send:hover{
+	background: #ef7080;
+}
+.void{
+	background: #009999;
+	border-radius: 15%;
+}
+.void:hover{
+	background: #008999;
+}
+.tax{
+	background: #ff8080;
+	border-radius: 15%;
+}
+.tax:hover{
+	background: #ef7080;
+}
+.showopen{
+	background: #339966;
+	border-radius: 15%;
+}
+.showopen:hover{
+	background: #238966;
+}
+.showclose{
+	background: #00ccff;
+	border-radius: 15%;
+}
+.showclose:hover{
+	background: #00bcff;
+}
+.openclose{
+	background: #ffb3b3;
+	border-radius: 15%;
+	width: 80%;
+	font-size: 22px;
+	padding: 20% 5% 15% 5%;
+}
+.openclose:hover{
+	background: #efa3b3;
+}
+.disc{
+	background: #ffcccc;
+	border-radius: 15%;
+	padding: 20% 2% 15% 2%;
+	font-size: 22px;
+	display: inline;
+}
+.disc:hover{
+	background: #efbccc;
+}
+.merge{
+	background: #ff9900;
+	border-radius: 15%;
+	width: 80%;
+	font-size: 20px;
+	padding: 40% 5% 35% 5%;
+}
+.merge:hover{
+	background: #ef8900;
+}
+.pay{
+	background: #0066ff;
+	border-radius: 15%;
+	display: inline;
+	padding: 30% 15% 30% 15%;
+}
+.pay:hover{
+	background: #0056ff;
+}
+.report{
+	background: #3366ff;
+	border-radius: 15%;
+	display: inline;
+	padding: 15% 15% 15% 15%;
+}
+.report:hover{
+	background: #2356ff;
+}
+.exit{
+	background: #b30000;
+	border-radius: 45%;
+	width: 60%;
+	height: 60%;
+	padding: 40% 15% 45% 15%;
+}
+.exit:hover{
+	background: #a30000;
+}
